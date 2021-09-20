@@ -1,0 +1,14 @@
+pip install gTTS pyttsx3 playsound
+
+# importing required modules
+import gtts
+from playsound import playsound
+
+# text to be converted to speech
+tts = gtts.gTTS("Brajnandan Asati")
+
+# saving the audio file
+tts.save("he2lo.mp3")
+
+# playing the audio file
+playsound("he2lo.mp3")
